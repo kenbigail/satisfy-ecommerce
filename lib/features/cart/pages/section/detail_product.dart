@@ -120,11 +120,7 @@ class _ProductDetailPageState extends State<ProductDetailPage> {
                             style: TextStyle(color: Colors.white),
                           ),
                           onPressed: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                  builder: (context) => CartPage()),
-                            );
+                            Navigator.pop(context);
                           },
                         ),
                       )
